@@ -104,7 +104,7 @@ export default function AdminOrderScreen() {
                           : 'not delivered'}
                       </td>
                       <td className="p-5">
-                        <Link href={`/order/${order._id}`} passHref>
+                        <Link href={`/order/${order._id}`} passHref legacyBehavior>
                           <a>Details</a>
                         </Link>
                       </td>
